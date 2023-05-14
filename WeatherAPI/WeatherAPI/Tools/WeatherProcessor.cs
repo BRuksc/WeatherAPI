@@ -8,9 +8,17 @@ namespace Tools
 {
     public class WeatherProcessor
     {
-        public async Task LoadWeatherAsync()
+        public async Task<WeatherModel?> LoadWeatherAsync(string path, HttpClient client)
         {
-            
+            WeatherModel? weatherModel = null;
+            HttpResponseMessage response = await client.GetAsync(path);
+
+            if (response.IsSuccessStatusCode)
+                weatherModel = await response.Content.ReadAsAsync<WeatherModel>();
+
+            else throw new Exception(response.ReasonPhrase);
+
+            return weatherModel;
         }
     }
 }

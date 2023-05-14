@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Tools
 {
-    public class ApiManager
+    public class ApiManager : IApiClient<HttpClient>
     {
-        public HttpClient ApiClient { get; private set; } = new HttpClient();
+        public HttpClient ApiClient { get; set; } = new HttpClient();
 
         public ApiManager(double latitude, double longitude)
         {
