@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Tools</id>
+    <version>1.0.0</version>
+    <authors>Tools</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="Microsoft.AspNet.WebApi.Client" version="5.2.9" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Private projects\WeatherAPI\WeatherAPI\Tools\bin\Debug\net6.0-windows\Tools.dll" target="lib\net6.0-windows7.0\Tools.dll" />
+  </files>
+</package>

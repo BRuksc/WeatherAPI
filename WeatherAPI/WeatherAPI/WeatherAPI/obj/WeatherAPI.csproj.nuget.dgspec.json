@@ -26,8 +26,7 @@
           "net6.0-windows"
         ],
         "sources": {
-          "C:\\Private projects\\LibraryManagementSystem\\LibraryManagementSystem.Interfaces\\bin\\Debug\\": {},
-          "C:\\Private projects\\LibraryManagementSystem\\LibraryManagementSystem.Tools\\bin\\Debug\\": {},
+          "C:\\Private projects\\WeatherAPI\\WeatherAPI\\Tools\\bin\\Debug\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,6 +44,20 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Tools": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

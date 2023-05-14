@@ -1,0 +1,12 @@
+C:\Private projects\WeatherAPI\WeatherAPI\Tools\bin\Debug\net6.0-windows\Tools.deps.json
+C:\Private projects\WeatherAPI\WeatherAPI\Tools\bin\Debug\net6.0-windows\Tools.dll
+C:\Private projects\WeatherAPI\WeatherAPI\Tools\bin\Debug\net6.0-windows\Tools.pdb
+C:\Private projects\WeatherAPI\WeatherAPI\Tools\obj\Debug\net6.0-windows\Tools.csproj.AssemblyReference.cache
+C:\Private projects\WeatherAPI\WeatherAPI\Tools\obj\Debug\net6.0-windows\Tools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Private projects\WeatherAPI\WeatherAPI\Tools\obj\Debug\net6.0-windows\Tools.AssemblyInfoInputs.cache
+C:\Private projects\WeatherAPI\WeatherAPI\Tools\obj\Debug\net6.0-windows\Tools.AssemblyInfo.cs
+C:\Private projects\WeatherAPI\WeatherAPI\Tools\obj\Debug\net6.0-windows\Tools.csproj.CoreCompileInputs.cache
+C:\Private projects\WeatherAPI\WeatherAPI\Tools\obj\Debug\net6.0-windows\Tools.dll
+C:\Private projects\WeatherAPI\WeatherAPI\Tools\obj\Debug\net6.0-windows\refint\Tools.dll
+C:\Private projects\WeatherAPI\WeatherAPI\Tools\obj\Debug\net6.0-windows\Tools.pdb
+C:\Private projects\WeatherAPI\WeatherAPI\Tools\obj\Debug\net6.0-windows\ref\Tools.dll

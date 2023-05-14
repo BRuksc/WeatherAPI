@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WeatherAPI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="WeatherAPI" Height="450" Width="800" Background="#3d3d3d">
     <Grid>
-
+        <StackPanel Margin="30">
+            
+        </StackPanel>
     </Grid>
 </Window>
